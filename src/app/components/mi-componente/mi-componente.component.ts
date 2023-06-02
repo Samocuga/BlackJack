@@ -3,10 +3,7 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: 'mi-componente',
-  template: `
-  <h1>Hola mundo</h1>
-  <p>Mi primer parrafo UwU</p>
-  `
+  templateUrl: './mi-componente.component.html'
 })
 
 export class MiComponente{
