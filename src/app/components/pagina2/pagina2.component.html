@@ -1,0 +1,14 @@
+<h2 class="subheader">Estos son nuestros aprendices</h2>
+
+<article class="article-item" *ngFor="let aprendiz of aprendices">
+  <div class="image-wrap">
+    <img src="" alt="Paisaje" />
+  </div>
+
+  <h2>{{ aprendiz.name}}</h2>
+  <span class="date"> Hace 5 minutos </span>
+  <span class="edad" [style.background]="aprendiz.edad%2 == 0 ? 'blue' :'purple'"> {{aprendiz.edad}} </span>
+  <a href="#">Leer más</a>
+
+  <div class="clearfix"></div>
+</article>
