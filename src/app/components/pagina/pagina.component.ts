@@ -8,6 +8,7 @@ import { Router,ActivatedRoute,Params } from '@angular/router';
 })
 export class PaginaComponent implements OnInit {
 
+
   constructor(
     private _route: ActivatedRoute,
     private _router: Router
